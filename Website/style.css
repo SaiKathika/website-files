@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: monospace;
+}
+
+/* The navigation bar */
+
+#mainlogo{
+    padding-left: 20px;
+    padding-top: 6px;
+    width: 200px;
+}
+
+#download{
+    z-index: 99999;
+    padding-top: 450px;
+    padding-left: 500px;
+    position: absolute;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:#d4b888;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999999999999;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: right;
+    display: block;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #ff0000;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background: rgba(255, 251, 0, 0.856);
+    color: rgba(0, 0, 0, 0.911);
+    transition: .8s;
+  }
+
+.a1{ background: url(a1.jpg); }
+
+.a2{ background: url(a2.jpg); }
+
+.a5{ background: url(a6.jpg); }
+
+.a6{ background: url(a6.jpg); }
+
+a{
+    z-index: 9999;
+    height: 75px;
+}
+
+#ps{
+    height: 80px;
+    width: 280px;
+}
+
+p{
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.404);
+    padding: 50px;
+    box-shadow: 0 0 20px #2c3335;
+    z-index: 999999;
+}
+
+h2{
+    color: #2c3335;
+    background-color: #dae0e2;
+    padding: 20px;
+    z-index: 1;
+    box-shadow: 0 0 20px #2c3335;
+}
+
+.a1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    border: 1px solid #2c3335;
+}
+
+.a2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    border: 1px solid #2c3335;
+}
+
+.a4{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.a5{
+    width: 100vw;
+    height: 20vh;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+.a6{
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.a1::after,.a2::after,.a4::after,.a5::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+#indicator{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6px;
+    background-color: rgba(233, 233, 5, 0.747);
+    z-index: 99999999999999999999999999999;
+    border-radius: 5px;
+}
+
+/*Social Media Icons*/
